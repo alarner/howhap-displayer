@@ -1,3 +1,4 @@
+const Howhap = require('howhap');
 module.exports = class ErrorDisplayer {
 	constructor(err) {
 		this.errors = {};
